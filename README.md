@@ -1,7 +1,7 @@
 # WE.LOCK: Unlocking Smart Locks with Web Vulnerabilities
 
 ### Intro
-WE.LOCK is a smart home access solution provider that manufactures and sells smart locks. WE.LOCK smart locks can be unlocked using a fingerprint, access codes, RFID tags, a smartphone app via Bluetooth (BLE) or the physical key supplied with a lock. In this article we are focusing on a smartphone app for Android, a mobile API, and the security of both.
+[WE.LOCK](https://welockglobal.com/) is a smart home access solution provider that manufactures and sells smart locks. WE.LOCK smart locks can be unlocked using a fingerprint, access codes, RFID tags, a smartphone app via Bluetooth (BLE) or the physical key supplied with a lock. In this article we are focusing on a smartphone app for Android, a mobile API, and the security of both.
 
 A new version (v3.1.1) of the [WeLock](https://play.google.com/store/apps/details?id=cn.sixpower.wlock) app for Android was released on May 24, 2021. The changelog notes that the UI was updated, but what is not mentioned is that the mobile app was bound to a new mobile API. There is a reason for this as the old API, which is still supported, was probably designed without security in mind and therefore suffers from multiple critical security vulnerabilities. These vulnerabilities can be easily exploited for gaining access to arbitrary user accounts and unlocking all the smart locks that are linked to a target account.
 
